@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#canvas-basic {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.backroundImg{
+    width: 100%;
+    z-index: -1;
+    margin-left: -60px;
+    margin-top: -80px;
+}
+
+.mainImage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -35px;
+}
+
+.myOwnImg{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border-radius: 15px;
+    transition: all 0.3s;
+    box-shadow: -3px -3px 7px #ffffff2f,
+    3px 3px 5px #ceced1;
+    border: 0px white;
+    margin: 12px auto;
+    border-radius: 30%;
+}
+
+.nameContainer{
+    text-align: center;
+    font-family: Lato,sans-serif;
+}
+
+.nameContainer h1{
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+.nameContainer p{
+    font-size: 11px;
+    margin: 15px;
+}
+
+
+
+
+
+
+/*  socoals */
+.socials{
+    text-align: center;
+}
+.icons a{
+  background: transparent;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s;
+  box-shadow: -3px -3px 7px #ffffff80,
+              3px 3px 5px #ceced1;
+}
+.icons a:hover:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: inset -3px -3px 7px #ffffff,
+              inset 3px 3px 5px #ceced1;
+              opacity: 0.5;
+}
+.icons a i{
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  line-height: 40px;
+}
+.icons a:hover i{
+  transform: scale(0.9);
+}
+.icons a.fb i{
+  color: #4267B2;
+}
+.icons a.twitter i{
+  color: #1DA1F2;
+}
+.icons a.insta i{
+  color: #E1306C;
+}
+.icons a.git i{
+  color: #333;
+}
+
+
+
+
+
+/* Go to Buttons */
+
+#gotoPages{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.gotoButton{
+    background: transparent;
+    height: 40px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.3s;
+    box-shadow: -3px -3px 7px #ffffff3d,
+    3px 3px 5px #ceced1;
+    border: 0px white;
+    display: flex;
+    margin: 12px auto;
+
+}
+
+.gotoButton a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+.webLogos{
+    height: 26px;
+    margin: 0px 10% 0% 12%;
+}
